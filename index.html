@@ -7,6 +7,7 @@
     <title>School Form</title>
 </head>
 <body>
+    <form>
       <div> 
      <h1>J.K.M.B Mallick High School</h1>
      <h2>Addmission Form</h2>
@@ -48,7 +49,7 @@
       <h1>Residential Information</h1>
       <table>
           <tr>
-              <td>CITY NAME :</td>
+              <td width="200">CITY NAME :</td>
               <td><input type="text" placeholder="City Name"></td>
           </tr>
           <tr>
@@ -78,11 +79,11 @@
                   <label for="form">
                       <input type="radio" id="form" name="gender">Male
                   </label>
-                  <label for="form">
-                      <input type="radio" id="form" name="gender">Female
+                  <label for="form1">
+                      <input type="radio" id="form1" name="gender">Female
                   </label>
-                  <label for="form">
-                      <input type="radio" name="gender" id="Form">Others
+                  <label for="form2">
+                      <input type="radio" name="gender" id="form2">Others
                   </label>
               </td>
           </tr>
@@ -91,5 +92,40 @@
              <hr  />
 
          </div>
+
+         <div>
+             <h1>Academic Information</h1>
+             <table>
+                 <tr>
+                     <td>QUALIFICATION : </td> 
+                     <td></td>
+                 </tr> 
+                 <tr>
+                     <td></td>  
+                     <td>
+                         <label for="check">
+                         <input type="checkbox" name="education" id="check">Matric Completed
+                         </label>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>     
+                         <label for="check1">
+                             <input type="checkbox" name="eduction" id="check1">Inter Completed
+                         </label>
+                        </td>
+                 </tr>
+                 <tr>
+                     <td>CLASS :</td>
+                     <td><input type="text" placeholder="Grade"></td>
+                 </tr>
+                 <tr>
+                     <td>Name of Old School :</td>
+                     <td><input type="text" placeholder="ABC High School"></td>
+                 </tr>
+             </table>
+             <hr />
+         </div>
+         </form>
 </body>
 </html>
